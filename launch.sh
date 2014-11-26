@@ -33,7 +33,7 @@ else
 fi
 
 echo "Running Checkstyle on $SOURCES_DIR ..."
-time mvn checkstyle:check "$@" # > target/console_log.txt
+time mvn checkstyle:checkstyle-aggregate "$@" # > target/console_log.txt
 echo "Running Checkstyle on $SOURCES_DIR - finished"
 
 echo "Testing Checkstyle finished"
