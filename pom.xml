@@ -33,11 +33,10 @@
 				</dependencies>
 	          <configuration>
 	            <configLocation>google_checks.xml</configLocation>
-	            <!--<suppressionsFileExpression>google_checks/checkstyle.suppressions.file</suppressionsFileExpression>
-	            <suppressionsLocation>google_checks/suppressions.xml</suppressionsLocation>
-	            <headerLocation>google_checks/java.header</headerLocation>
-	            <propertyExpansion>checkstyle.importcontrol.file=google_checks/import-control.xml</propertyExpansion> -->
-	            <enableFilesSummary>true</enableFilesSummary>
+	            <!--<suppressionsFileExpression>checkstyle.suppressions.file</suppressionsFileExpression>
+	            <suppressionsLocation>suppressions.xml</suppressionsLocation>
+	            <headerLocation>java.header</headerLocation>
+	            <propertyExpansion>checkstyle.importcontrol.file=import-control.xml</propertyExpansion> -->
 	          </configuration>
 	        </plugin>
 			
