@@ -23,12 +23,17 @@
 					<dependency>
 					  <groupId>com.puppycrawl.tools</groupId>
 					  <artifactId>checkstyle</artifactId>
-					  <version>6.2-SNAPSHOT</version>
+					  <version>LATEST</version>
 					</dependency>
 					<dependency>
 						<groupId>com.github.sevntu.checkstyle</groupId>
 						<artifactId>sevntu-checkstyle-maven-plugin</artifactId>
-						<version>1.13.0</version>
+						<version>LATEST</version>
+					</dependency>
+					<dependency>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jxr-plugin</artifactId>
+						<version>2.4</version>
 					</dependency>
 				</dependencies>
 	          <configuration>
