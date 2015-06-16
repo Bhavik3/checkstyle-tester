@@ -32,10 +32,10 @@ else
   mkdir "target"
 fi
 
-mvn --batch-mode clean
+#mvn --batch-mode clean
 
 echo "Running Checkstyle on $SOURCES_DIR ..."
-time mvn --batch-mode site "$@" # > target/console_log.txt
+time mvn site "$@" > target/console_log.txt
 echo "Running Checkstyle on $SOURCES_DIR - finished"
 
 echo "Testing Checkstyle finished"
